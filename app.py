@@ -58,10 +58,5 @@ def predict():
     return render_template('predict.html',predict=ans) 
 
 
-    # print(first_name)
-    # print(Last_name)
-    
-
-    return 'Form submitted'   
-
-app.run(debug=True)
+if __name__== '__main__' :  
+    app.run()
